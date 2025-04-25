@@ -1,0 +1,37 @@
+// Interview questions
+
+// 1. what is diff b/w var and let
+Var is mutable, let is immutable.
+
+// 2. how to create mutable and immutable variables
+To create mutable we use var. to create immutable we use let.
+
+// 3. diff b/w explicit and implicit variables
+Explicit is when you declare a variable and specify its type.
+Implicit is when you declare a variable and give it a value without specifying its type.
+
+// 4. how to create optional variables
+To create optional variable we use ?
+Example: var number: Int?
+
+// 5. what is optional binding
+Optional binding is a way to safely unwrap an optional variable
+
+// 6. how to unwrap optional variable
+There are 3 ways to unwrap an optional variable:
+1. Nil coalescing 2. If let block 3. Guard let block
+
+// 7. diff b/w nil coalescing, if let and guard let
+Nil coalescing allows you to give a default value if the optional is nil
+If let block allows you to unwrap an optional and work with it inside a block
+Guard let allows you to unwrap an optional and exit early if it is nil
+
+// 8. diff b/w array and dict and set
+Array is ordered and can have duplicates
+Set is unordered and can not have duplicates
+Dictionary has key value pairs. It is unordered and can not have duplicates
+
+// 9. can you assign a optional value to non optional variable , if yes how , if now why?
+Not you cannot because a non optional variable is expecting a valid value
+While an optional variable might have a value of nil.
+You can achieve this by using optional binding.
